@@ -73,8 +73,8 @@ export default function App() {
         </div>
         <nav style={{ display: "flex", gap: 28 }}>
           {["Pipeline", "Concepts", "Glossary"].map(n => (
-            <a key={n} href={`#${n.toLowerCase()}`} style={{ color: "#7B8FA1", fontSize: 12, letterSpacing: "0.1em", textDecoration: "none", textTransform: "uppercase", transition: "color 0.2s" }}
-              onMouseEnter={e => e.target.style.color = "#00FFB2"} onMouseLeave={e => e.target.style.color = "#7B8FA1"}>{n}</a>
+            <a key={n} href={`#${n.toLowerCase()}`} style={{ color: "#81a17b", fontSize: 12, letterSpacing: "0.1em", textDecoration: "none", textTransform: "uppercase", transition: "color 0.2s" }}
+              onMouseEnter={e => e.target.style.color = "#00FFB2"} onMouseLeave={e => e.target.style.color = "#81a17b"}>{n}</a>
           ))}
         </nav>
       </header>
