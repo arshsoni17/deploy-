@@ -69,7 +69,7 @@ export default function App() {
       <header style={{ position: "relative", zIndex: 1, borderBottom: "1px solid #1E2D3D", padding: "20px 40px", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
           <div style={{ width: 10, height: 10, borderRadius: "50%", background: "#00FFB2", boxShadow: "0 0 12px #00FFB2" }} />
-          <span style={{ color: "#00FFB2", fontWeight: "bold", fontSize: 13, letterSpacing: "0.2em", textTransform: "uppercase" }}>DeployLab Testing</span>
+          <span style={{ color: "#00FFB2", fontWeight: "bold", fontSize: 13, letterSpacing: "0.2em", textTransform: "uppercase" }}>DeployLab Testing BY ARSHDEEP SINGH </span>
         </div>
         <nav style={{ display: "flex", gap: 28 }}>
           {["Pipeline", "Concepts", "Glossary"].map(n => (
